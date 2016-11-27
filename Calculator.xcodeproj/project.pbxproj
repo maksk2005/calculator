@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133528141DEAA85000210EF7 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 133528131DEAA85000210EF7 /* bg.jpg */; };
 		13BA2DDD1DEA778F00ABB2A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BA2DDC1DEA778F00ABB2A3 /* main.m */; };
 		13BA2DE01DEA778F00ABB2A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BA2DDF1DEA778F00ABB2A3 /* AppDelegate.m */; };
 		13BA2DE31DEA778F00ABB2A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BA2DE21DEA778F00ABB2A3 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		133528131DEAA85000210EF7 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		13BA2DD81DEA778F00ABB2A3 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BA2DDC1DEA778F00ABB2A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13BA2DDE1DEA778F00ABB2A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		133528121DEAA84000210EF7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				133528131DEAA85000210EF7 /* bg.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		13BA2DCF1DEA778F00ABB2A3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		13BA2DDA1DEA778F00ABB2A3 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				133528121DEAA84000210EF7 /* Images */,
 				13BA2DDE1DEA778F00ABB2A3 /* AppDelegate.h */,
 				13BA2DDF1DEA778F00ABB2A3 /* AppDelegate.m */,
 				13BA2DE11DEA778F00ABB2A3 /* ViewController.h */,
@@ -207,6 +218,7 @@
 				TargetAttributes = {
 					13BA2DD71DEA778F00ABB2A3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KKLY7LBSVD;
 						ProvisioningStyle = Automatic;
 					};
 					13BA2DF01DEA778F00ABB2A3 = {
@@ -248,6 +260,7 @@
 			files = (
 				13BA2DEB1DEA778F00ABB2A3 /* LaunchScreen.storyboard in Resources */,
 				13BA2DE81DEA778F00ABB2A3 /* Assets.xcassets in Resources */,
+				133528141DEAA85000210EF7 /* bg.jpg in Resources */,
 				13BA2DE61DEA778F00ABB2A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KKLY7LBSVD;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maksimkhokhlov.Calculator;
@@ -435,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KKLY7LBSVD;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maksimkhokhlov.Calculator;
@@ -507,6 +522,7 @@
 				13BA2E071DEA778F00ABB2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13BA2E081DEA778F00ABB2A3 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +531,7 @@
 				13BA2E0A1DEA778F00ABB2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13BA2E0B1DEA778F00ABB2A3 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +540,7 @@
 				13BA2E0D1DEA778F00ABB2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
